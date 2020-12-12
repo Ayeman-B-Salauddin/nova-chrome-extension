@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--  changes -->
+    <!-- <iframe width="0" height="0" src="https://www.youtuberepeater.com/watch?v=X-UFpPHLKco&name=quot+Ice+Flow+by+Kevin+MacLeod+Audio+Spectrum+Reaction#gsc.tab=0" frameborder="0" allowfullscreen></iframe> -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova - A productivity app</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="bg"></div>
+    <!-- <iframe style="display: none;" width="1280" height="720" src="https://www.youtube.com/embed/j9nhecEWMuE?rel=0&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <!-- <audio autoplay loop>
+      <source src="media/rain.mp3">
+    </audio> -->
+    
+    <!-- <div class="social">
+      <ul>
+        <li><a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
+      </ul>
+    </div> -->
+    <!-- <div class="buttons">
+      <div class="button" href="https://www.facebook.com/home.php">>
+        
+        <div class="icon"><i class="fab fa-facebook-f"></i></div>
+        <span>Facebook</span>
+      </div>
+      <div class="button">
+        <div class="icon"><i class="fab fa-twitter"></i></div>
+        <span>Twitter</span>
+      </div>
+      <div class="button">
+        <div class="icon"><i class="fab fa-instagram"></i></div>
+        <span>Instagram</span>
+      </div>
+      <div class="button">
+        <div class="icon"><i class="fab fa-youtube"></i></div>
+        <span>YouTube</span>
+      </div>
+      <div class="button">
+        <div class="icon"><i class="fab fa-linkedin"></i></div>
+        <span>LinkedIn</span>
+      </div>
+      <div class="button">
+        <div class="icon"><i class="fab fa-github"></i></div>
+        <span>GitHub</span>
+      </div>
+    </div> -->
+
+    <div id="top-bar">
+      <div id="time"></div>
+      <div id="quote"></div>
+    </div> 
+    <form>
+      <input type="text" class="todo-input" />
+      <button class="todo-button" type="submit">
+        <i class="fas fa-plus-square"></i>
+      </button>
+      <div class="select">
+        <select name="todos" class="filter-todo">
+          <option value="all">All</option>
+          <option value="completed">Completed</option>
+          <option value="uncompleted">Uncompleted</option>
+        </select>
+      </div>
+    </form>
+    <div class="todo-container">
+
+      <ul class="todo-list"></ul>
+    </div>
+
+    <script src="js/todo.js"></script>
+    <script src="js/jq.js"></script>
+    <script src="js/background-image.js"></script>
+    <script src="js/time.js"></script>
+    <script src="js/quote.js"></script>
+  </body>
+</html>

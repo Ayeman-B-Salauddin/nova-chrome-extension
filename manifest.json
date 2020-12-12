@@ -1,0 +1,10 @@
+{
+    "version": "1.0",
+    "manifest_version":2,
+    "name": "Nova",
+    "description": "A chrome extension for productivity",
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    }
+
+}

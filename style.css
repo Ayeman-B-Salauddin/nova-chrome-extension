@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+header {
+  font-size: 2rem;
+}
+
+/* #buttons {
+  display: inline-block;
+}
+#button {
+  display: inline-block;
+} */
+/* .buttons .button {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  /* float: left; */
+  /* margin: 0 5px;
+  overflow: hidden;
+  background: rgb(63, 62, 63);
+  /* opacity: 80%; */
+/*
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+}
+.buttons .button:hover{
+  width: 200px;
+}
+
+.buttons .button .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.buttons .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.buttons .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.buttons .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+.buttons .button:nth-child(4):hover .icon{
+  background: #ff6767;
+}
+.buttons .button:nth-child(5):hover .icon{
+  background: #36a33b;
+}
+.buttons .button:nth-child(6):hover .icon{
+  background: #716e75;
+}
+.buttons .button .icon i{
+  font-size: 10px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.buttons .button:hover .icon i{
+  color: #fff;
+}
+
+.buttons .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+
+} */ 
+
+
+#top-bar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 1%;
+  background-color: rgba(0,0,0,0.3)
+}
+#time {
+  font-size: 1000%;
+}
+#quote {
+  font-size: 20px;
+}
+
+#bg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}
+form button {
+  color: #4791ff;
+  background: #f7fffe;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form button:hover {
+  background: #4781ff;
+  color: white;
+}
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo {
+  margin: 0.5rem;
+  background: white;
+  font-size: 1.5rem;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease;
+}
+.filter-todo {
+  padding: 1rem;
+}
+.todo li {
+  flex: 1;
+}
+
+.trash-btn,
+.complete-btn {
+  background: #4797ff;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.complete-btn {
+  background: rgb(105, 11, 212);
+}
+.todo-item {
+  padding: 0rem 0.5rem;
+}
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+
+.fall {
+  transform: translateY(10rem) rotateZ(20deg);
+  opacity: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-image: none;
+}
+
+.select {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+select {
+  color: #4b8ff5;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  width: 12rem;
+}
+
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  background: #4787ff;
+  cursor: pointer;
+  pointer-events: none;
+}
