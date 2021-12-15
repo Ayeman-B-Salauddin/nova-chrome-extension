@@ -3,3 +3,4 @@
 # nova-chrome-extension
 
 A chrome extension designed for productivity and mental well-being.
+This chrome extension features a todo-list app (uses localStorage), clock and beautiful background images.
